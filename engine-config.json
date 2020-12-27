@@ -1,0 +1,24 @@
+{
+  "defaults": {
+    "transform": {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "rotation": 0,
+      "scale": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    "level": {
+      "maxWidth": 10000,
+      "maxHeight": 10000,
+      "tile_size": 15
+    },
+    "screen": {
+      "frame_width": 1920,
+      "frame_height": 1080
+    }
+  }
+}

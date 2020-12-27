@@ -1,0 +1,35 @@
+{
+  "name": "cossaks",
+  "version": "1.0.0",
+  "description": "A game engine (kinda)",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/socket.io": "^2.1.4",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "events": "^3.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dendydroid/JSandbox.git"
+  },
+  "keywords": [
+    "yeet"
+  ],
+  "author": "Dendydroid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dendydroid/JSandbox/issues"
+  },
+  "homepage": "https://github.com/Dendydroid/JSandbox#readme"
+}
