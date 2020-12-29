@@ -1,31 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>Game</title>
-		<meta charset='utf-8' />
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 		<style>
-			html, body{
-				height: 100%;
-				width: 100%; 
-				margin: 0;
-			}
-			#world{
-				width:100%;
-				height:100%;
-			}
+			body { margin: 0; }
+			canvas { width:100% !important; height: 100% !important; }
 		</style>
 	</head>
 	<body>
-		<div id="world">
-
-		</div>
-		<!-- <canvas height='1080' width='1920' id='world'>Обновите браузер</canvas>
-		<script>
-			window.world = document.getElementById("world"),
-			window.world_ctx = window.world.getContext('2d');
-            window.world_ctx.fillRect(0, 0, window.world.width, window.world.height);
-		</script> -->
 		<script src='js/main-bundle.js'></script>
 	</body>
 </html>

@@ -4,8 +4,8 @@ import fs from 'fs';
 import path from "path";
 import {Server as SocketServer} from 'ws';
 import { Helpers } from './Core/helpers';
+import { Scene } from "./Entities/scene";
 // import { GameObject } from './Core/gameobject';
-import { Level } from "./Core/level";
 
 /**
  * Websocket Server
@@ -92,8 +92,8 @@ export class Server {
         if (!Helpers.containsObject(this.connections, ws))
         {
             let data = {
-                name: 'spawn',
-                gameobject: {}
+                name: 'scene',
+                scene: new Scene()
             };
             ws.send(JSON.stringify(data));
         }
